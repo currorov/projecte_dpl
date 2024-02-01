@@ -1,0 +1,25 @@
+Ignorar archivos temporales o de respaldo:
+*~
+*~.swp
+*~.bak
+
+Ignorar archivos compilados o generados:
+*.class
+*.jar
+*.war
+
+Ignorar directorios generados por el sistema o herramientas de construcción
+target/
+node_modules
+
+Ignorar archivos de configuración local:
+.env
+.env_local
+
+Ignorar archivos de registros o archivos de salida:
+logs/
+*.log
+
+
+
+Luego hacer git add y git commit de .gitignore
